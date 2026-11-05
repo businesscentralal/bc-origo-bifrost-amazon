@@ -1,0 +1,58 @@
+{
+  "id": "4869aee6-da16-4bd0-9fb5-61aaebbc7210",
+  "name": "Amazon via Bifrost",
+  "publisher": "Origo",
+  "version": "28.0.0.0",
+  "brief": "Amazon via Bifrost - message types for Amazon",
+  "description": "Bifröst message types for Amazon, so an agent can operate it end to end.",
+  "url": "https://www.origo.is/",
+  "help": "https://docs.bifrost.origo.is/en-us/amazon/",
+  "privacyStatement": "https://docs.bifrost.origo.is/en-us/licensing/privacy/",
+  "EULA": "https://docs.bifrost.origo.is/en-us/licensing/eula/",
+  "applicationInsightsConnectionString": "InstrumentationKey=af411133-5e22-486f-b23a-081b79ed4168;IngestionEndpoint=https://northeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://northeurope.livediagnostics.monitor.azure.com/;ApplicationId=c4476f32-5dfb-490a-8ad0-fb8ffad1c050",
+  "contextSensitiveHelpUrl": "https://docs.bifrost.origo.is/{0}/amazon/",
+  "keyVaultUrls": [],
+  "supportedLocales": [
+    "en-US",
+    "is-IS"
+  ],
+  "logo": "assets/Logo250x250.png",
+  "dependencies": [
+    {
+      "id": "7505e808-6e52-4b96-a328-82573391297a",
+      "name": "Bifrost Foundation",
+      "publisher": "Origo",
+      "version": "28.0.8.617"
+    }
+  ],
+  "internalsVisibleTo": [
+    {
+      "id": "995fdc2f-1cf0-497a-8c24-73c090da8cfb",
+      "name": "Amazon via Bifrost - Tests",
+      "publisher": "Origo"
+    }
+  ],
+  "screenshots": [],
+  "platform": "28.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 10034985,
+      "to": 10035034
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "target": "Cloud",
+  "features": [
+    "TranslationFile"
+  ],
+  "propagateDependencies": false,
+  "runtime": "17.0",
+  "suppressWarnings": [
+    "AS0081"
+  ]
+}
